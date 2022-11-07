@@ -1,1 +1,9 @@
-<%= link_to "What is your question?", ask_path %>
+
+<h1>Stupid Coaching</h1>
+<%=params[:question]%>
+<p>-You</p>
+<br>
+<%=@coach%>
+<p>-Your coach</p>
+<br>
+<%= link_to "Do you have more stupid question before you finally start working you lazy ass?", ask_path %>
